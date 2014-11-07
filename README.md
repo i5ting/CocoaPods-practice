@@ -16,3 +16,13 @@ The platform of the target `Pods` (iOS 4.3) is not compatible with `AFNetworking
 platform :ios, '6.0'
 ```
 
+## ZXing用法
+```
+pod 'ZXing',            '~> 2.3'
+```
+
+## GoogleToolboxForMac 用法
+
+```
+	pod 'GTM', :podspec => 'GTM.podspec'
+```
