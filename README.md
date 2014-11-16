@@ -76,3 +76,21 @@ http://stackoverflow.com/questions/9863836/library-not-found-for-lpods#comment25
 
 只要把res/splash丢到项目里就可以了
 
+
+## pod install速度特别慢的解决办法
+
+每次都要升级cocoapods的spec仓库，在命令执行时添加参数可以略过此步。
+
+珍爱生命吧！
+
+安装方法
+
+	sudo npm install -g cocoapods-cli
+ 
+目前有2个命令podi和podu
+
+- `podi` = `pod install --verbose --no-repo-update`
+- `podu` = `pod update --verbose --no-repo-update`
+	
+更多见https://github.com/i5ting/cocoapods-cli
+	
