@@ -102,7 +102,7 @@ CLI for creating and configuring new Xcode projects
 
 https://github.com/thoughtbot/liftoff
 
-for oc project
+for oc project(see http://stackoverflow.com/questions/26777519/project-template-in-liftoff)
  
  liftoff --template objc
  
