@@ -97,7 +97,9 @@ http://stackoverflow.com/questions/9863836/library-not-found-for-lpods#comment25
 # creating and configuring new Xcode projects
 
 ##  liftoff
+
 CLI for creating and configuring new Xcode projects
+
 https://github.com/thoughtbot/liftoff
 
 for oc project
@@ -268,3 +270,7 @@ Success: pod install --verbose --no-repo-update execute success
 
 很快就搞定了
 
+
+# awesome-ios
+
+https://github.com/vsouza/awesome-ios
