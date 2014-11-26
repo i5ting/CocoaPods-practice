@@ -276,4 +276,7 @@ Success: pod install --verbose --no-repo-update execute success
 https://github.com/vsouza/awesome-ios
 
 # ios官方入门教程
+
 https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/FirstTutorial.html#//apple_ref/doc/uid/TP40011343-CH3-SW1
+
+https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/RoadMapiOS.pdf
