@@ -19,6 +19,7 @@ platform :ios, '6.0'
 ```
 
 ## ZXing用法
+
 ```
 pod 'ZXing',            '~> 2.3'
 ```
@@ -280,3 +281,16 @@ https://github.com/vsouza/awesome-ios
 https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/FirstTutorial.html#//apple_ref/doc/uid/TP40011343-CH3-SW1
 
 https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/RoadMapiOS.pdf
+
+# file-has-been-modified-since-the-precompiled-header-was-built
+
+
+File '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationBar.h' has been modified since the precompiled header '/Users/sang/Library/Developer/Xcode/DerivedData/sdfjlk-cvueupbbzgqiiigoejhduimwqpho/Build/Intermediates/PrecompiledHeaders/sdfjlk-Prefix-eygkqtbcppdbcccdeswcwiatzhsl/sdfjlk-Prefix.pch.pch' was built
+
+
+http://stackoverflow.com/questions/19391768/file-has-been-modified-since-the-precompiled-header-was-built
+
+
+Deleting ~/Library/Developer/Xcode and restarting Xcode fixed this for me (Xcode 6 B7). Suspect an aggressive caching bug.
+
+No amount of cleaning / build folder cleaning / derived data deleting helped before that.
